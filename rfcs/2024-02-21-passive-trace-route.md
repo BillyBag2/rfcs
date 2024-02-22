@@ -32,8 +32,7 @@ introduce more packets to the mesh or initiate their own trace route.
 Note also that trace route will only trace the out going route. The mesh will
 have asymmetry where the ability to transmit to a node does not mean you can
 receive from it when it transmits. Hearing a route discovery packet give
-you information about nodes you can receive, as well as transmit to. Where are
-the trace route only provides the transmit path to the node.
+you information about nodes you can receive, as well as transmit to. 
 
 ## Ecosystem Impact
 
@@ -97,6 +96,8 @@ already participated, this packet would not normally be retransmitted.
 [Discuss how the proposed changes will affect backward compatibility across the
 ecosystem. Include strategies for handling compatibility issues. Discuss
 whether this change requires any version bumps.]
+
+No change to haw packets are handled in the mesh.
 
 How the received data is delivered to the client need to be discussed.
 
